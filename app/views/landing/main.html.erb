@@ -1,0 +1,88 @@
+<header class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-lg-8 col-sm-12">
+        <div class="hero-text">
+          <h1>Canvas</h1>
+          <h3>Делаем промо материалы для рекламы в Facebook и Instagram <span id="cta"><a href="#services">абсолютно бесплатно!</a></span></h3>
+          <%= link_to "Войти", generator_promo_path, class: 'btn btn-lg btn-primary mb-4' %>
+          <p>Регистрируясь, я соглашаюсь<br>с <%= link_to 'договором оферты', root_path, target: '_blank' %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="about-me" id="services">
+  <div class="container">
+    <div class="border-about pt-5 pb-5">
+      <h3 class="pb-2">Сервис в разработке, но он уже умеет делать:</h3>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 sm-12 mt-3 text-left">
+          <div class="function">
+            <%= image_tag 'target.png', alt: '', class: 'img-function' %>
+            <div class="function-text">
+              Создавать точечный промо-материалы для Facebook и Instagram
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 sm-12 mt-3 text-left">
+          <div class="function">
+            <%= image_tag 'user.png', alt: '', class: 'img-function' %>
+            <div class="function-text">
+              Создайте индивидуальный промо под вашего клиента
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 sm-12 mt-3 text-left">
+          <div class="function">
+            <%= image_tag 'search.png', alt: '', class: 'img-function' %>
+            <div class="function-text">
+              Вы найдете более сотни промо-материалов
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 sm-12 mt-3 text-left">
+          <div class="function">
+            <%= image_tag 'settings.png', alt: '', class: 'img-function' %>
+            <div class="function-text">
+              Десятки настроек, которые помогут создать баннер вашей мечты
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Banner -->
+<section class="contact-banner" id="order">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>Создайте свой промо-материал:</h1>
+        <%= link_to "Попробовать сервис", generator_promo_path, class: 'btn btn-lg btn-primary' %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <div class="pt-3 pt-3 pb-3">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-2">
+          &copy; "Canvas", 2020 - ∞
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-2">
+          Тех поддержка: <a href="#">testt@test.ru</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-2">
+          <%= link_to 'Политика конфиденциальности', root_path, target: '_blank' %><br>
+          <%= link_to 'Договор оферты', root_path, target: '_blank' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
